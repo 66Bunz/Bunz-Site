@@ -13,7 +13,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 nav {
@@ -33,10 +33,14 @@ nav img {
 }
 
 .logo {
-  color: black;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 20px;
+}
+
+.logo a {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-links {
