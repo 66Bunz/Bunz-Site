@@ -1,3 +1,25 @@
+
+
+$(document).ready(function () {
+    $(".filter").click(function () {
+        const value = $(this).attr("data-filter");
+        if (value == "all") {
+            $(".project-card").show(500);
+        }
+        else {
+            $(".project-card").not("." + value).hide(500);
+            $(".project-card").filter("." + value).show(500);
+        }
+    });
+    // add active class to buttons
+
+    $(".filter").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+})
+
+
+
 const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
@@ -35,3 +57,10 @@ function showSlides() {
 
 
 navSlide();
+
+
+
+
+
+
+

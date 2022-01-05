@@ -32,7 +32,7 @@
             </div>
             <ul class="nav-links">
                 <li><a href="./index.html">Home</a></li>
-                <li><a href="./projects.html">Projects</a></li>
+                <li><a class="dropdown" href="./projects.html">Projects</a></li>
                 <li><a href="./about.html">About</a></li>
                 <li><a href="./contacts.html">Contacts</a></li>
             </ul>
@@ -48,14 +48,72 @@
 
 
     <!-- Main Content -->
-    <main  class="projects-page">
+    <main class="projects-page">
         <section class="projects-banner">
             <div class="projects-banner-text">
                 <h1>PROJECTS</h1>
             </div>
         </section>
-
         <section class="projects-contents" id="main-content">
+            <ul>
+                <li class="filter active" data-filter="all">all</li>
+                <li class="filter" data-filter="discord">discord</li>
+                <li class="filter" data-filter="python">python</li>
+                <li class="filter" data-filter="rainmeter">rainmeter</li>
+                <!-- <li class="filter" data-filter="other">other</li> -->
+            </ul>
+            <div class="projects">
+
+                <div class="project-card python">
+                    <img src="" alt="PyPuns">
+                    <h1>PyPuns</h1>
+                    <p>Tags: 
+                        <button class="filter" data-filter="python">Python</button>
+                    </p>
+                    <a href="#"><button class="view-more-button">View More</button></a>
+                </div>
+
+                <div class="project-card python">
+                    <img src="" alt="Vocal Assistant">
+                    <h1>Vocal Assistant</h1>
+                    <p>Tags: 
+                        <button class="filter" data-filter="python">Python</button>
+                    </p>
+                    <a href="#"><button class="view-more-button">View More</button></a>
+                </div>
+
+                <div class="project-card rainmeter">
+                    <img src="" alt="Mondaine Stop2Go">
+                    <h1>Mondaine Stop2Go"</h1>
+                    <p>Tags: 
+                        <button class="filter" data-filter="rainmeter">Rainmeter</button>
+                    </p>
+                    <a href="#"><button class="view-more-button">View More</button></a>
+                </div>
+
+                <div class="project-card python discord">
+                    <img src="" alt="Droptop Discord Bot">
+                    <h1>"Droptop Discord Bot</h1>
+                    <p>Tags: 
+                        <button class="filter" data-filter="python">Python</button>
+                        <button class="filter" data-filter="discord">Discord</button>
+                    </p>
+                    <a href="#"><button class="view-more-button">View More</button></a>
+                </div>
+
+                <div class="project-card rainmeter">
+                    <img src="" alt="Daily-Quotes-Droptop">
+                    <h1>Daily-Quotes-Droptop</h1>
+                    <p>Tags: 
+                        <button class="filter" data-filter="rainmeter">Rainmeter</button>
+                    </p>
+                    <a href="#"><button class="view-more-button">View More</button></a>
+                </div>
+
+            </div>
+
+
+
 
         </section>
 
@@ -94,7 +152,13 @@
 
 
     <!-- Script -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
+
+    <!-- <script type="text/javascript">
+        
+    </script> -->
+
     <!-- Script End -->
 </body>
 
