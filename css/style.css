@@ -211,6 +211,151 @@ nav img {
 
 
 
+/* ------HOME PAGE------ */
+
+.home-banner .home-banner-text {
+  font-size: 40px;
+}
+
+.home-page {
+  width: 100%;
+  height: auto;
+}
+
+.home-banner {
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.home-contents {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  /* background-color: #09ff00; */
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+
+/* ------PROJECTS PAGE------ */
+
+.projects-banner .projects-banner-text {
+  font-size: 40px;
+}
+
+.projects-page {
+  width: 100%;
+  height: auto;
+}
+
+.projects-banner {
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.projects-contents {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  /* background-color: #09ff00; */
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+
+
+/* ------ABOUT PAGE------ */
+
+.aboutme-banner .aboutme-banner-text {
+  font-size: 40px;
+}
+
+.aboutme-page {
+  width: 100%;
+  height: auto;
+}
+
+.aboutme-banner {
+  background-color: #565656;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh;
+}
+
+.aboutme-contents {
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 70%;
+  /* background-color: #09ff00; */
+  padding: 20px;
+  overflow: hidden;
+}
+
+
+.aboutme-text {
+  float: left;
+  height: 100%;
+  width: 50%;
+  /* background-color: yellow; */
+  border: 2px solid #f000f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutme-text h2 {
+  margin: 20px 0px 0px 0px;
+  /* text-align: center; */
+}
+
+.aboutme-text p {
+  margin: 0 20px 30px 20px;
+  text-align: center;
+}
+
+
+
+.aboutme-images {
+  margin-left: auto;
+  justify-content: center;
+  height: 100%;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+}
+
+.aboutme-images img {
+  width: 50%;
+  height: auto;
+  margin: 20px 0px;
+  border: 2px solid #f000f7;
+}
+
+
+
+
+
+
+
+
 /* ------CONTACTS PAGE------ */
 
 .contacts-banner .contacts-banner-text {
@@ -219,7 +364,7 @@ nav img {
 
 .contacts-page {
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .contacts-banner {
@@ -228,7 +373,7 @@ nav img {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30%;
+  height: 30vh;
 }
 
 .contacts-contents {
@@ -344,7 +489,7 @@ nav img {
 .contacts-buttons {
   margin-left: auto;
   justify-content: center;
-  height: 100%;
+  /* height: 100%; */
   width: 40%;
   display: flex;
   flex-direction: column;
