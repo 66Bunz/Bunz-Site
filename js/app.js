@@ -4,11 +4,11 @@ $(document).ready(function () {
     $(".filter").click(function () {
         const value = $(this).attr("data-filter");
         if (value == "all") {
-            $(".project-card").show(500);
+            $(".project-card").show(50);
         }
         else {
-            $(".project-card").not("." + value).hide(500);
-            $(".project-card").filter("." + value).show(500);
+            $(".project-card").not("." + value).hide(50);
+            $(".project-card").filter("." + value).show(50);
         }
     });
     // add active class to buttons
@@ -17,6 +17,50 @@ $(document).ready(function () {
         $(this).addClass("active").siblings().removeClass("active");
     })
 })
+
+
+
+
+$(document).ready(function () {
+    $(".mondainestop2go-filter").click(function () {
+        const value = $(this).attr("data-filter");
+        if (value == "all") {
+            $(".mondainestop2go-content-page").show(50);
+        }
+        else {
+            $(".mondainestop2go-content-page").not("." + value).hide(50);
+            $(".mondainestop2go-content-page").filter("." + value).show(50);
+        }
+    });
+    // add active class to buttons
+
+    $(".mondainestop2go-filter").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+})
+
+
+
+$(document).ready(function () {
+    $(".dailyquotesdroptop-filter").click(function () {
+        const value = $(this).attr("data-filter");
+        if (value == "all") {
+            $(".dailyquotesdroptop-content-page").show(50);
+        }
+        else {
+            $(".dailyquotesdroptop-content-page").not("." + value).hide(50);
+            $(".dailyquotesdroptop-content-page").filter("." + value).show(50);
+        }
+    });
+    // add active class to buttons
+
+    $(".dailyquotesdroptop-filter").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    })
+})
+
+
+
 
 
 
